@@ -15,3 +15,7 @@ jobs:
           node-version: 22.x
       - run: npm ci
       - run: npm run build
+      - uses: actions/upload-artifact@v4
+        name: dist
+        path: dist/**
+        retention-days: 5
