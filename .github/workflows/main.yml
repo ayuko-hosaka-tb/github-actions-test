@@ -1,8 +1,9 @@
 name: Node.js-build-cl
-  on:
-    push:
-      branches:
-        - main
+
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   build:
