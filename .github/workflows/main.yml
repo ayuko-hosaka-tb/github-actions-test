@@ -14,4 +14,4 @@ jobs:
         with:
           node-version: 22.x
       - run: npm ci
-      - run: npm biuld
+      - run: npm run build
